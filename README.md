@@ -1,6 +1,6 @@
-# Oblique Light-Sheet Microscopy (OMP) Image Processing & Analysis Suite
+# Oblique Plane Microscopy (OPM) Image Processing & Analysis Suite
 
-** Oblique Light-Sheet Microscopy (OMP) Image Processing & Analysis Suite** is a comprehensive Python-based application designed for efficient processing and quantitative analysis of data from Light-Sheet Fluorescence Microscopes (LSFMs), particularly those employing scanned oblique plane illumination techniques like Open-Top Light-Sheet (OTLS) microscopy.
+** Oblique Plane Microscopy (OPM) Image Processing & Analysis Suite** is a comprehensive Python-based application designed for efficient processing and quantitative analysis of data from Light-Sheet Fluorescence Microscopes (LSFMs), particularly those employing scanned oblique plane illumination techniques like Open-Top Light-Sheet (OTLS) microscopy.
 
 This suite provides a user-friendly Graphical User Interface (GUI) and a powerful backend that leverages GPU acceleration to streamline your workflow, enabling rapid on-the-fly feedback crucial for system alignment, optimization, and routine data processing.
 ![image](https://github.com/user-attachments/assets/00b1e0bc-3edb-4035-a0ad-527be8ca5978)
@@ -8,11 +8,11 @@ This suite provides a user-friendly Graphical User Interface (GUI) and a powerfu
 
 ## The Challenge Addressed
 
-Aligning and optimizing custom LSFM systems, especially when testing different objectives or optical configurations, requires immediate quantitative feedback on image quality. Standard microscope control software often lacks integrated, real-time deskewing and precise resolution/SNR analysis capabilities, leading to time-consuming offline processing. **[Software Name]** fills this gap by providing these essential tools directly at your fingertips.
+Aligning and optimizing custom LSFM systems, especially when testing different objectives or optical configurations, requires immediate quantitative feedback on image quality. Standard microscope control software often lacks integrated, real-time deskewing and precise resolution/SNR analysis capabilities, leading to time-consuming offline processing. **Oblique Plane Microscopy (OPM) Image Processing & Analysis Suite** fills this gap by providing these essential tools directly at your fingertips.
 
 ## Core Modules & Key Features
 
-**Oblique Light-Sheet Microscopy (OMP) Image Processing & Analysis Suite** is built around three primary analysis modules:
+**Oblique Plane Microscopy (OPM) Image Processing & Analysis Suite** is built around three primary analysis modules:
 
 ### 1. Deskewing Module
 *   **Geometric Correction:** Accurately corrects skewed raw LSFM data to produce geometrically correct volumetric representations.
@@ -85,7 +85,7 @@ Aligning and optimizing custom LSFM systems, especially when testing different o
 
 ### Example Workflow (during system alignment):
 1.  Acquire a test image/stack (e.g., beads or a structured sample) using your microscope control software (like "Navigate").
-2.  Open **Oblique Light-Sheet Microscopy (OMP) Image Processing & Analysis Suite**.
+2.  Open **Oblique Plane Microscopy (OPM) Image Processing & Analysis Suite**.
 3.  Go to the "Deskew" tab, load the raw skewed TIFF, input microscope parameters, and run deskewing.
 ![image](https://github.com/user-attachments/assets/0f2d461b-60f8-4fed-bdd0-1b742528f913)
 
